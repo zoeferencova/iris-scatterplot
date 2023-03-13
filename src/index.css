@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tick line {
+  stroke: #C0C0BB;
+}
+
+.tick text,
+.axis-label,
+.legend-item text,
+.legend-label {
+  fill: #635F5D;
+}
+
+.legend-item:hover {
+  cursor: default;
+}
+
+.axis-label {
+  font-size: 1.2rem;
+}
+
+.mark,
+.legend-item circle {
+  opacity: 0.7;
+}
+
+.dropdown-label {
+  font-size: 1.1rem;
+  margin-right: 10px;
+  color: #635F5D;
+}
+
+.Dropdown-root {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.dropdown-container {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-right: 25px;
+}
+
+.legend-item {
+  margin-bottom: 10px;
+}
+
+.legend-item text {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
