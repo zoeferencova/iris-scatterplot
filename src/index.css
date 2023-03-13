@@ -40,7 +40,7 @@ code {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .small-button button {
