@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iris-scatterplot/static/css/main.73ccd281.css",
+    "main.js": "/iris-scatterplot/static/js/main.d078e23d.js",
+    "static/js/787.6ed24f08.chunk.js": "/iris-scatterplot/static/js/787.6ed24f08.chunk.js",
+    "index.html": "/iris-scatterplot/index.html",
+    "main.73ccd281.css.map": "/iris-scatterplot/static/css/main.73ccd281.css.map",
+    "main.d078e23d.js.map": "/iris-scatterplot/static/js/main.d078e23d.js.map",
+    "787.6ed24f08.chunk.js.map": "/iris-scatterplot/static/js/787.6ed24f08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73ccd281.css",
+    "static/js/main.d078e23d.js"
+  ]
+}
