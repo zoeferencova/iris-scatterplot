@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/iris-scatterplot/static/css/main.ec8a8ef3.css",
-    "main.js": "/iris-scatterplot/static/js/main.1926040e.js",
+    "main.css": "/iris-scatterplot/static/css/main.9bdea61c.css",
+    "main.js": "/iris-scatterplot/static/js/main.0ac55994.js",
     "static/js/787.6ed24f08.chunk.js": "/iris-scatterplot/static/js/787.6ed24f08.chunk.js",
     "static/media/github.svg": "/iris-scatterplot/static/media/github.c21dc2c952a96175dc43.svg",
     "index.html": "/iris-scatterplot/index.html",
     "static/media/table-regular.svg": "/iris-scatterplot/static/media/table-regular.a7f1b37329496e519047.svg",
-    "main.ec8a8ef3.css.map": "/iris-scatterplot/static/css/main.ec8a8ef3.css.map",
-    "main.1926040e.js.map": "/iris-scatterplot/static/js/main.1926040e.js.map",
+    "main.9bdea61c.css.map": "/iris-scatterplot/static/css/main.9bdea61c.css.map",
+    "main.0ac55994.js.map": "/iris-scatterplot/static/js/main.0ac55994.js.map",
     "787.6ed24f08.chunk.js.map": "/iris-scatterplot/static/js/787.6ed24f08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec8a8ef3.css",
-    "static/js/main.1926040e.js"
+    "static/css/main.9bdea61c.css",
+    "static/js/main.0ac55994.js"
   ]
 }
