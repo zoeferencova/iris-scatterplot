@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+pre {
+  font-family: inherit;
+}
+
 .layout {
   max-width: 960px;
   margin: 0 auto;
@@ -23,16 +27,16 @@ code {
 .page-header {
   margin-left: 90px;
   margin-right: 130px;
-}
 
-.page-header h1 {
-  font-weight: 500;
-}
+  h1 {
+    font-weight: 500;
+  }
 
-.page-header p {
-  line-height: 1.55rem;
-  font-size: 1.07rem;
-  color: #8f9197;
+  p {
+    line-height: 1.55rem;
+    font-size: 1.07rem;
+    color: #8f9197;
+  }
 }
 
 .link-bar {
@@ -40,37 +44,39 @@ code {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 25px;
-}
-
-.small-button button {
-  background-color: #F5F5F8;
-  border: none;
-  border-radius: 25px;
-  padding: 7px 12px;
-  display: flex;
-  align-items: center;
-  font-size: 14.5px;
-  font-weight: 500;
-  margin-right: 15px;
-  color: #282C34;
+  margin-bottom: 15px;
 }
 
 .small-button {
   text-decoration: none;
+
+  button {
+    background-color: #F5F5F8;
+    border: none;
+    border-radius: 25px;
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    font-size: 14.5px;
+    font-weight: 500;
+    margin-right: 15px;
+    color: #282C34;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  img {
+    height: 18px;
+    margin-right: 10px;
+  }
 }
 
-.small-button button:hover {
-  cursor: pointer;
-}
-
-.small-button img {
-  height: 18px;
-  margin-right: 10px;
-}
-
-.tick line {
-  stroke: #C0C0BB;
+.tick {
+  line {
+    stroke: #C0C0BB;
+  }
 }
 
 .tick text,
@@ -84,8 +90,16 @@ code {
   font-size: 1.05rem;
 }
 
-.legend-item:hover {
-  cursor: default;
+.legend-item {
+  :hover {
+    cursor: default;
+  }
+
+  text {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+  }
+
 }
 
 .axis-label {
@@ -115,9 +129,4 @@ code {
   align-items: center;
   margin-top: 24px;
   margin-right: 25px;
-}
-
-.legend-item text {
-  font-size: 0.9rem;
-  text-transform: capitalize;
 }
