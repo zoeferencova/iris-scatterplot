@@ -47,7 +47,7 @@ export const Chart = () => {
     const yAxisLabel = getLabel(yAttribute);
 
     if (!data) {
-        return <pre className="loading" style={{ marginLeft: margin.left, marginTop: "30px" }}>Loading ...</pre>
+        return <pre style={{ marginLeft: margin.left, marginTop: margin.top }}>Loading ...</pre>
     }
 
     const colorValue = d => d.species;
